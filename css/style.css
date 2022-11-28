@@ -55,9 +55,6 @@ header .navbar {
     background-position: center;
 }
 /**SECTION ESPLORA PLUS*/
-.playPlus,.playPlus div {
-    border: 2px dash d red;
-}
 .playPlus {
     height: 400px;
 }
