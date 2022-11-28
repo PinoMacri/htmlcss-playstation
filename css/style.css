@@ -57,14 +57,14 @@ header .navbar {
     background-repeat: no-repeat;
     background-position: center;
 }
-/**SECTION PLUS*/
-.playPlus {
+/**SECTION PLUS,NOW*/
+.playPlusNow {
     height: 400px;
 }
-.playPlus,.playNow a {
+.playPlusNow a {
     background-color: #D9DADC;
 }
-/**SECTION NOW*/
-.playNow {
-    height: 400px ;
+/**SECTION SOCIAL*/
+.social,.social div {
+    border 2px dashed red;
 }
