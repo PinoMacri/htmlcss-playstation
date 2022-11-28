@@ -12,6 +12,9 @@ body {
 .bckGray {
     background-color: #BEBCBB;
 }
+.bckDarkBlue {
+    background-color: #161C3B;
+}
 /*! ----------------------- HEADER ----------------------*/
 header {
     height: 100px;
@@ -54,10 +57,14 @@ header .navbar {
     background-repeat: no-repeat;
     background-position: center;
 }
-/**SECTION ESPLORA PLUS*/
+/**SECTION PLUS*/
 .playPlus {
     height: 400px;
 }
-.playPlus a {
+.playPlus,.playNow a {
     background-color: #D9DADC;
+}
+/**SECTION NOW*/
+.playNow {
+    height: 400px ;
 }
