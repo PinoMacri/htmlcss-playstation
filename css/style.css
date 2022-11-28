@@ -9,6 +9,9 @@ body {
 .bckOrange {
     background-color: orangered;
 }
+.bckGray {
+    background-color: #BEBCBB;
+}
 /*! ----------------------- HEADER ----------------------*/
 header {
     height: 100px;
@@ -51,7 +54,13 @@ header .navbar {
     background-repeat: no-repeat;
     background-position: center;
 }
-/**SECTION ESPLORA PLAYSTATION 4*/
-.esploraPs4,.esploraPs4 div {
-    border: 2px dased red;
+/**SECTION ESPLORA PLUS*/
+.playPlus,.playPlus div {
+    border: 2px dash d red;
+}
+.playPlus {
+    height: 400px;
+}
+.playPlus a {
+    background-color: #D9DADC;
 }
