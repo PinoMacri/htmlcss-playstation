@@ -1,0 +1,21 @@
+/** ---------------------- GENERAL ----------------------*/
+body {
+    font-family: sans-serif;
+}
+/** ---------------------- HEADER ----------------------*/
+header {
+    height: 100px;
+}
+/*Navbar*/
+.firstNav {
+    height: 35%;
+}
+header .navbar {
+    height: 65%;
+}
+.login {
+    border-radius: 20px;
+}
+.search {
+    font-size: 22px;
+}
