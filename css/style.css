@@ -19,3 +19,17 @@ header .navbar {
 .search {
     font-size: 22px;
 }
+/** ---------------------- JUMBOTRON ----------------------*/
+.myJumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+ 
+}
+.col-12.textJumbo a {
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
