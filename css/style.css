@@ -6,9 +6,13 @@ body {
 .borRad {
     border-radius: 20px;
 }
+.bckOrange {
+    background-color: orangered;
+}
 /*! ----------------------- HEADER ----------------------*/
 header {
     height: 100px;
+    z-index: 1;
 }
 /**NAVBAR*/
 .firstNav {
@@ -29,7 +33,6 @@ header .navbar {
     height: 750px;
 }
 .col-12.textJumbo a {
-    background-color: orangered;
     padding: 10px;
 }
 /*! ------------------------- MAIN -----------------------*/
@@ -39,4 +42,15 @@ header .navbar {
 }
 .infoBlu{
     max-width: 220px;
+}
+/**SECTION TAKES TWO*/
+.takesTwo {
+    height: 600px;
+    background-image:url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.takesTwo,.takesTwo div {
+    border: 2px dahed red;
 }
