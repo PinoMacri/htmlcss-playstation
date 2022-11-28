@@ -2,6 +2,10 @@
 body {
     font-family: sans-serif;
 }
+/*! --------------------- UTILITIES ---------------------*/
+.borRad {
+    border-radius: 20px;
+}
 /*! ----------------------- HEADER ----------------------*/
 header {
     height: 100px;
@@ -13,13 +17,10 @@ header {
 header .navbar {
     height: 65%;
 }
-.login {
-    border-radius: 20px;
-}
 .search {
     font-size: 22px;
 }
-/*! ---------------------- JUMBOTRON ---------------------*/
+/*! --------------------- JUMBOTRON ---------------------*/
 .myJumbotron {
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
@@ -29,12 +30,13 @@ header .navbar {
 }
 .col-12.textJumbo a {
     background-color: orangered;
-    border-radius: 20px;
     padding: 10px;
 }
-/*! -------------------------- MAIN -----------------------*/
-/**SECTION GAME*/
-.game .col-6 img {
-    border-radius: 15px;
-}
+/*! ------------------------- MAIN -----------------------*/
 /**SECTION PLAYSTATION 5*/
+.ps5 .col-12 p {
+    font-size: 17px;
+}
+.infoBlu{
+    max-width: 220px;
+}
