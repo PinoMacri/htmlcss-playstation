@@ -52,4 +52,6 @@ header .navbar {
     background-position: center;
 }
 /**SECTION ESPLORA PLAYSTATION 4*/
-
+.esploraPs4,.esploraPs4 div {
+    border: 2px dased red;
+}
