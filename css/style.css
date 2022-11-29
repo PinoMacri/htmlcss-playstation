@@ -74,3 +74,29 @@ header .navbar {
 footer {
     min-height: 400px;
 }
+/*! ---------------------- BONUS EXTRA ; HOVER ---------------------*/
+.col-6 .img-fluid.borRad:hover {
+    transform: translatey(-20px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.col-2,.col-4.opacity {
+    opacity: 0.5
+}
+.col-2.opacity:hover {
+    cursor: pointer;
+    opacity: 1;
+    border-bottom: 1px solid blue;
+}
+.col-4.opacity:hover {
+    cursor: pointer;
+    opacity: 1;
+    border-bottom: 1px solid blue;
+}
+.effect:hover {
+    transform: scale(1.2) ;
+    text-shadow: 1px 1px 2px white, 0 0 1em rgb(212, 0, 255), 0 0 0.2em rgb(255, 255, 255)
+}
+a:hover {
+    text-shadow: 1px 1px 2px white, 0 0 1em rgb(212, 0, 255), 0 0 0.2em rgb(255, 255, 255)
+}
