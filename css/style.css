@@ -75,9 +75,11 @@ footer {
     min-height: 400px;
 }
 /*! ---------------------- BONUS EXTRA ; HOVER ---------------------*/
+.col-6 .img-fluid.borRad {
+    transition: 0.5s
+}
 .col-6 .img-fluid.borRad:hover {
     transform: translatey(-20px);
-    transition: 0.5s;
     cursor: pointer;
 }
 .col-2,.col-4.opacity {
